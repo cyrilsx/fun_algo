@@ -1,4 +1,4 @@
-package reccursion;
+package dynamics;
 
 import org.junit.jupiter.api.Test;
 

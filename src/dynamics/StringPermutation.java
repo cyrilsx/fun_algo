@@ -1,4 +1,4 @@
-package reccursion;
+package dynamics;
 
 import java.util.ArrayList;
 import java.util.Collections;

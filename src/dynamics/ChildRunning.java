@@ -1,4 +1,4 @@
-package reccursion;
+package dynamics;
 
 import java.util.stream.IntStream;
 
