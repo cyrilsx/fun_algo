@@ -13,4 +13,15 @@ Explanation: There are two ways to climb to the top.
 2. 2 steps
 ``` 
 
+## Example 2:
+
+```
+Input: n = 3
+Output: 3
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 2 steps + 1 step
+3. 1 step + 2 steps 
+``` 
+
 Link: https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
