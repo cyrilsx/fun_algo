@@ -11,6 +11,8 @@
     - [Heap Sort](src/sort/HeapSort.java)
     - [Counting Sort](#counting-sort)
     - [Radix Sort](#radix-sort)
+  - [Two pointes](#two-pointers)
+    - [Move Zeroes](src/pointers`/MoveZeroes.md)
   - [Searching](#searching)
     - [Linear Search](#linear-search)
     - [Binary Search](#binary-search)
