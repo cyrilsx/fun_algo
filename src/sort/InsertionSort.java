@@ -6,31 +6,32 @@ class InsertionSort {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode sorted = new ListNode(head.val);
-        head = head.next;
-        while(head != null) {
-            ListNode current = sorted;
-            while (head.val > current.val  && current.next != null) {
+        ListNode sorted = new ListNode(head.val); // -1
+        head = head.next;  // 0
+        while (head != null) {
+            ListNode current = sorted; // 1e ite current - 1
+            ListNode prev = null;
+            while (current != null && head.val > current.val) {
+                prev = current;
                 current = current.next;
             }
-            if (current == sorted) {
+            if (prev == null) {
                 sorted = new ListNode(head.val, sorted);
             } else {
-                int temp = current.val;
-                current.val = head.val;
-                head.val = temp;
-                current.next = head;
+                prev.next = new ListNode(head.val, current);
             }
+
             head = head.next;
         }
         return sorted;
     }
 
 
-
     public static void main(String[] args) {
+        //ListNode test1 = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
+        ListNode test1 = new ListNode(-1, new ListNode(0, new ListNode(1, new ListNode(3))));
         ListNode listNode = new InsertionSort().insertionSortList(
-                new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))))
+                test1
         );
 
         while (listNode != null) {
