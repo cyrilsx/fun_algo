@@ -44,3 +44,6 @@
     - [Number of ways to go up](src/dynamics/ChildRunning.md)
   - [Dynamic Programming](src/backtracking/backtracking_progamming.md)
     - [Letter combinations of a phone number](src/backtracking/LetterCombinaison.md) 
+  - [Miscellaneous](#miscellaneous)
+    - [Find Pivot Index](src/misc/FindPivot.md)
+    - [Greatest Common Divisor of Strings](src/arrays/GCDSString.md)
